@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "An awesome generator to generate browser extensions on the go!",
   "main": "index.js",
+  "files": [
+    "generators"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +13,19 @@
     "type": "git",
     "url": "git+https://github.com/aajiwani/generator-browser-extension.git"
   },
-  "keywords": ["generator", "browser", "extension"],
+  "keywords": [
+    "generator",
+    "browser",
+    "extension",
+    "yeoman-generator"
+  ],
   "author": "Amir Ali Jiwani <amirali.jiwani89@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aajiwani/generator-browser-extension/issues"
   },
-  "homepage": "https://github.com/aajiwani/generator-browser-extension#readme"
+  "homepage": "https://github.com/aajiwani/generator-browser-extension#readme",
+  "dependencies": {
+    "yeoman-generator": "^5.4.2"
+  }
 }
